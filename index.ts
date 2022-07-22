@@ -1,5 +1,6 @@
-function hello(who = "world") {
-  console.log(`Hello, ${who}`);
+function hello(who = "world", punctuation = "!") {
+  console.log(`Hello, ${who}${punctuation}`);
 }
 
 hello()
+hello('?')
