@@ -1,1 +1,5 @@
-console.log('Hello, world')
+function hello(who = "world") {
+  console.log(`Hello, ${who}`);
+}
+
+hello()
